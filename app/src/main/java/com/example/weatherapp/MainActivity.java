@@ -57,7 +57,7 @@ import static android.Manifest.permission.ACCESS_FINE_LOCATION;
 public class MainActivity extends AppCompatActivity {
 
     private static final String OPEN_WEATHER_APP_URL ="http://api.openweathermap.org/data/2.5/weather?lat=%s&lon=%s&units=metric";
-    private static final String OPEN_WEATHER_APP_API ="1c533039bd11e9d38f523214c01ab6c4";
+    private static final String OPEN_WEATHER_APP_API ="";   // provide your unique API KEY here
     TextView cityField, detailsField, currentTempretureField, humidityField, pressureField, weatherIcon, updatedField;
     Typeface weatherFont;
     static String latitude;
